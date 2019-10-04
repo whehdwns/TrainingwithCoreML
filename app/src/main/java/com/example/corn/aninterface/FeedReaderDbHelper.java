@@ -4,14 +4,7 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 /*
-http://whats-online.info/science-and-tutorials/129/how-to-store-images-in-SQLite-database-in-Android-and-display-in-listview/
-http://whats-online.info/science-and-tutorials/131/how-to-store-data-in-SQLite-database-in-android-example/
 https://developer.android.com/training/data-storage/sqlite
-http://androidminess.blogspot.com/2016/02/android-sqlite-database-simple-project.html
-https://markojerkic.com/android-sqlite-cheat-sheet-without-content-provider/
-http://lomza.totem-soft.com/tutorial-add-sqlcipher-to-your-android-app/
-https://www.youtube.com/watch?v=6wZeSJ0U1t4
-https://www.youtube.com/watch?v=lP36PcfR1j4
 */
 public class FeedReaderDbHelper extends SQLiteOpenHelper {
     // If you change the database schema, you must increment the database version.
