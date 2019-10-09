@@ -40,8 +40,8 @@ public class loadingtraining extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         long start = System.currentTimeMillis();
         setContentView(R.layout.loadingtraining);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+       // Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        //setSupportActionBar(toolbar);
         constraintLayoutSend = findViewById(R.id.layoutSend);
         ImageView imageViewSendDetail = findViewById(R.id.button_send);
         imageViewSendDetail.setOnClickListener(new View.OnClickListener() {
