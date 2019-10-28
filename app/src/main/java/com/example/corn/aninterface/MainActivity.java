@@ -24,9 +24,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
         if(view.getId() == R.id.loadingtraingdata){
-           //startActivity(new Intent(MainActivity.this, loadingtraining.class)); //working
-            //startActivity(new Intent(MainActivity.this, sqliteimagetraining.class)); //working with small images
-            Toast.makeText(this,"loading training data", Toast.LENGTH_SHORT).show();
+            startActivity(new Intent(MainActivity.this, choosingloadingdatatype.class));
+           // Toast.makeText(this,"loading training data", Toast.LENGTH_SHORT).show();
         }else if(view.getId() == R.id.loadingtestingdata){
             Toast.makeText(this,"loading testing data", Toast.LENGTH_SHORT).show();
         }else if(view.getId() == R.id.autolabeling){

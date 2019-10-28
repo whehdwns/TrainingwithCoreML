@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".loadingtraining" />
-        <activity android:name=".sqliteimagetraining"></activity>
+        <activity android:name=".sqliteimagetraining" />
+        <activity android:name=".choosingloadingdatatype"></activity>
     </application>
 
 </manifest>

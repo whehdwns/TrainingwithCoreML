@@ -29,9 +29,11 @@ public class FeedReaderDbHelper extends SQLiteAssetHelper {
             SQLiteDatabase objSqLiteDatabase=getWritableDatabase();
             //getReadableDatabase();
             if(objSqLiteDatabase!=null){
+                //query
                 Cursor objCursor = objSqLiteDatabase.rawQuery("select * from imagetesting3", null);
                 if(objCursor.getCount()!=0) {
                     while(objCursor.moveToNext()){
+                        //retrieving Data
                         byte[] imagesByte=  objCursor.getBlob(0);
                         Bitmap ourImage = BitmapFactory.decodeByteArray(imagesByte, 0, imagesByte.length); //error
                         objDbModelClassArrayList.add(
